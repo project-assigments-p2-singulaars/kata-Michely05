@@ -1,7 +1,7 @@
 import { test, expect, describe } from "vitest";
 import { esBisiesto } from "./bisiesto";
 
-describe("Prueba para comprobar si un año es bisiesto", () => {
+describe("Prueba para comprobar si un año es bisiesto o no", () => {
   test("1995 no es bisiesto", () => {
     expect(esBisiesto(1995)).toBe(false);
   });
